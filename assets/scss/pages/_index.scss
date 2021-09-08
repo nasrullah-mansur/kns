@@ -61,6 +61,7 @@
 }
 
 .customer-product {
+    border-bottom: 1px solid #eee;
     [class^="col"] {
         position: relative;
 
@@ -74,7 +75,22 @@
             top: 15px;
         }
 
-        &:nth-child(4n) {
+        @media (min-width: 992px) {
+            &:nth-child(4n) {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            &:nth-child(3n) {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        @media (max-width: 767.98px) {
             &::after {
                 display: none;
             }
@@ -87,7 +103,7 @@
         padding: 15px;
 
         > img {
-            height: 40px;
+            max-height: 40px;
             margin-bottom: 15px;
         }
 
@@ -134,6 +150,12 @@
                 display: none;
             }
         }
+
+        @media (max-width: 767.98px) {
+            &::after {
+                display: none;
+            }
+        }
     }
 
     .product-item {
@@ -170,6 +192,27 @@
             top: 30px;
             left: 0;
             z-index: -1;
+
+            @media (max-width: 1200px) {
+                height: calc(100% - 53px);
+                top: 25px;
+            }
+
+            @media (max-width: 991.98px) {
+                height: calc(100% - 41px);
+                top: 19px;
+            }
+
+            @media (max-width: 767.98px) {
+                height: calc(100% - 30px);
+                top: 14px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .container {
+                padding: 0;
+            }
         }
     }
 
@@ -193,6 +236,23 @@
                         text-transform: uppercase;
                         color: #646568;
                         font-style: italic;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    padding-right: 0;
+                }
+
+                ul {
+                    li {
+                        text-align: center;
                     }
                 }
             }
@@ -316,12 +376,30 @@
             }
         }
     }
+
+    [class^="col"]:first-child {
+        @media (min-width: 992px) {
+            padding-left: 0;
+        }
+
+        @media (max-width: 991.98px) {
+            padding: 0;
+        }
+    }
 }
 
 .logos {
     padding-top: 90px;
     padding-bottom: 30px;
     border-bottom: 30px solid #D1D1D1;
+
+    .logo-item {
+        text-align: center;
+
+        img {
+            max-width: 180px;
+        }
+    }
 }
 
 

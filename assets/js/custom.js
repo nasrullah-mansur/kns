@@ -14,5 +14,10 @@ $(document).ready(function() {
         });
     }
 
+    $('.header .header-content .mobile-btn').on('click', function(e) {
+        e.preventDefault();
+        $('.header .header-content .menu .top').slideToggle();
+    })
+
 });
 

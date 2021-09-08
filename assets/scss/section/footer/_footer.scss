@@ -1,0 +1,113 @@
+.footer {
+    background-color: #242424;
+    padding: 30px 0;
+
+    .footer-item {
+        ul {
+            li {
+                a {
+                    position: relative;
+                    color: #aaaaaa;
+                    font-size: 12px;
+                    padding-left: 15px;
+
+                    &::after {
+                        content: '';
+                        width: 5px;
+                        height: 5px;
+                        background-color: #aaa;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 6px;
+                        left: 0;
+                    }
+
+                    &:hover {
+                        color: #858484;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-item-app {
+        .social {
+            display: flex;
+            padding-bottom: 15px;
+
+            li {
+                color: #aaa;
+                font-size: 12px;
+
+                &:first-child {
+                    margin-right: 15px;
+                }
+
+                a {
+                    color: #aaa;
+                    padding: 10px;
+
+                    &:hover {
+                        color: #858484;
+                    }
+                }
+            }
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+
+            img {
+                max-width: 80px;
+                margin-right: 15px;
+            }
+            .text {
+                p {
+                    font-size: 12px;
+                    color: #aaa;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .lang {
+        padding-top: 30px;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+
+            li {
+                font-size: 12px;
+                color: #aaa;
+                padding-left: 15px;
+
+                a {
+                    color: #aaa;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: right;
+        border-top: 1px solid rgba(170, 170, 170, 0.2);
+        padding-top: 15px;
+        margin-top: 15px;
+        p {
+            font-size: 12px;
+            color: #aaa;
+            margin-bottom: 0;
+
+            a {
+                color: #aaa;
+
+                &:hover {
+                    color: #858484;
+                }
+            }
+        }
+    }
+}

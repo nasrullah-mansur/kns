@@ -1,0 +1,207 @@
+.index-3 {
+    border-top: 1px solid #ddd;
+    .paginate {
+        ul {
+            display: flex;
+
+            li {
+                a {
+                    margin-right: 10px;
+                    font-size: 14px;
+                    color: #555;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+
+                    &::after {
+                        content: '/';
+                        padding-left: 10px;
+                    }
+                }
+
+                &.active {
+                    a {
+                        color: #b09c89;
+                        pointer-events: none;
+                        cursor: default;
+                    }
+                }
+
+                &:last-child {
+                    a {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .title {
+        h1 {
+            font-size: 24px;
+            color: #6f6f70;
+            font-weight: 400;
+            padding-top: 60px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 26px;
+            font-weight: 300;
+        }
+    }
+
+    // customer-product;
+    .customer-products {
+
+        .customer-product-items {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .product-item {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #ddd;
+
+            a {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    img {
+                        height: 50px;
+                    }
+
+                    h4 {
+                        font-size: 14px;
+                        color: #77797b;
+                        padding-top: 10px;
+                        font-weight: 300;
+                        font-style: italic;
+                    }
+                }
+
+                .right {
+                    // img {
+                    //     position: absolute;
+                    // }
+                }
+            }
+
+            &.special-item {
+                a {
+                    align-items: center;
+                }
+
+                .left {
+                    h4 {
+                        font-size: 16px;
+                        color: #df2027;
+                        font-weight: 600;
+                        border-left: 1px solid #df2027;
+                        border-bottom: 1px solid #df2027;
+                        padding-left: 15px;
+                        padding-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .product-details {
+        padding-top: 60px;
+        border-top: 1px solid #ddd;
+
+        .title {
+            h2 {
+                color: #E31F26;
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+
+        .details {
+            background-image: url(../images/meet-2.jpg);
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 65%;
+            h4 {
+                font-size: 24px;
+                color: #df2027;
+                padding-top: 120px;
+            }
+
+            p {
+                font-size: 16px;
+                color: #555;
+                font-weight: 300;
+                padding-top: 30px;
+                max-width: 600px;
+            }
+        }
+
+        .collapseble {
+            a {
+                color: #096fb7;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 300;
+                color: #555;
+                margin-top: 10px;
+            }
+        }
+
+        .details-two {
+            h2 {
+                font-size: 24px;
+                color: #e31f26;
+                padding-bottom: 15px;
+                padding-top: 15px;
+            }
+
+            h3 {
+                font-size: 24px;
+                color: #555;
+                position: relative;
+                padding-left: 15px;
+                padding-bottom: 15px;
+
+                i {
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    color: #df2027;
+                    font-size: 8px;
+                }
+            }
+
+            h4 {
+                font-size: 16px;
+                color: #555;
+                font-weight: 600;
+                max-width: 700px;
+                line-height: 26px;
+                padding-bottom: 15px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                color: #555;
+                font-weight: 300;
+                max-width: 700px;
+            }
+        }
+    }
+}

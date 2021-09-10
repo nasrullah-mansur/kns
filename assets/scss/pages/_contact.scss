@@ -1,0 +1,53 @@
+.contact {
+    padding: 60px 0;
+
+    h1 {
+        font-size: 26px;
+        color: #898989;
+        font-weight: 300;
+        padding-bottom: 30px;
+    }
+
+    form {
+        label {
+            font-size: 15px;
+            color: #494949;
+        }
+
+        p.italic {
+            font-size: 14px;
+            font-style: italic;
+            color: #494949;
+            font-weight: 300;
+        }
+
+        small.italic {
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .form-check {
+            label {
+                font-size: 14px;
+                color: #494949;
+                font-weight: 300;
+                cursor: pointer;
+            }
+        }
+
+        button {
+            display: inline-block;
+            margin-top: 30px;
+            background-color: #df2027;
+            color: white;
+            padding: 9px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+
+            &:hover {
+                background-color: #45a049;
+            }
+        }
+    }
+}

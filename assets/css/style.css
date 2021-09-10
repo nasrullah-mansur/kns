@@ -1483,3 +1483,238 @@ ul {
   font-weight: 300;
   max-width: 700px;
 }
+
+.index-4 .paginate {
+  background-color: #F7F7F7;
+  padding: 6px 0;
+  margin-bottom: 60px;
+}
+
+.index-4 .paginate ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index-4 .paginate ul li a {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.index-4 .paginate ul li a:hover {
+  color: #e01f27;
+}
+
+.index-4 .paginate ul li a::after {
+  content: '/';
+  padding-left: 10px;
+}
+
+.index-4 .paginate ul li.active a {
+  color: #b09c89;
+  pointer-events: none;
+  cursor: default;
+}
+
+.index-4 .paginate ul li:last-child a::after {
+  display: none;
+}
+
+.index-4 .title h1 {
+  font-size: 16px;
+  color: #898989;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.index-4 .full-details p {
+  font-size: 16px;
+  color: #555;
+  font-weight: 300;
+}
+
+.index-4 .image-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.index-4 .image-item h4 {
+  font-size: 14px;
+  color: #898989;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.index-4 .image-item:hover h4 {
+  color: #e01f27;
+}
+
+.index-5 .paginate {
+  background-color: #F7F7F7;
+  padding: 6px 0;
+  margin-bottom: 60px;
+}
+
+.index-5 .paginate ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index-5 .paginate ul li a {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.index-5 .paginate ul li a:hover {
+  color: #e01f27;
+}
+
+.index-5 .paginate ul li a::after {
+  content: '/';
+  padding-left: 10px;
+}
+
+.index-5 .paginate ul li.active a {
+  color: #b09c89;
+  pointer-events: none;
+  cursor: default;
+}
+
+.index-5 .paginate ul li:last-child a::after {
+  display: none;
+}
+
+.index-5 .page-title .container {
+  position: relative;
+}
+
+.index-5 .page-title h1 {
+  font-size: 32px;
+  color: #e51d27;
+  font-weight: 300;
+}
+
+.index-5 .page-title p {
+  font-size: 16px;
+  color: #494949;
+  font-weight: 300;
+  max-width: 340px;
+}
+
+.index-5 .page-title a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.index-5 .page-title a:hover {
+  color: #e01f27;
+}
+
+.index-5 .details-product {
+  background-color: #FAFAFA;
+  padding: 60px 0;
+}
+
+.index-5 .details-product .left h3 {
+  font-size: 16px;
+  color: #a67c52;
+  padding-bottom: 5px;
+}
+
+.index-5 .details-product .left h4 {
+  margin-bottom: 0;
+}
+
+.index-5 .details-product .left ul {
+  background-color: #fff;
+  padding: 15px;
+  border: solid 1px #d8d8d8;
+  border-radius: 5px;
+}
+
+.index-5 .details-product .left ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.index-5 .details-product .left ul li.bb-5 {
+  border-bottom: 5px solid #d8d8d8;
+}
+
+.index-5 .details-product .left ul li.bb-2 {
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.index-5 .details-product .left ul li.bb-0 {
+  border-bottom: 0;
+}
+
+.index-5 .details-product .left ul li p {
+  margin-bottom: 0;
+}
+
+.index-5 .details-product .center h3 {
+  font-size: 16px;
+  color: #a67c52;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 12px;
+}
+
+.index-5 .details-product .center h3 span {
+  color: #8b8b8b;
+}
+
+.index-5 .details-product .right .img img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+}
+
+.index-5 .details-product .right .buy {
+  text-align: center;
+}
+
+.index-5 .details-product .right .buy a {
+  display: block;
+}
+
+.index-5 .details-product .right .buy a:first-child {
+  margin: 30px 0;
+}
+
+.index-5 .details-product .right .buy a:last-child {
+  color: #494949;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 10px;
+}
+
+.index-5 .details-product .right .buy a:last-child:hover {
+  color: #e01f27;
+}
+
+.index-5 .details-product .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.index-5 .details-product .social ul li a {
+  color: #3b5998;
+}
+
+.index-5 .video {
+  background-color: #F7F7F7;
+  padding: 30px;
+  border-top: 1px solid #d8d8d8;
+  text-align: center;
+}
